@@ -1,0 +1,35 @@
+body{
+
+background-color: lightpink;
+color:rgb(211, 26, 103);
+font-family: "Work Sans", sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 600px;
+margin: 0px;
+
+}
+
+button{
+    background-color: rgb(240, 94, 155);
+    color: rgb(117, 12, 61);
+    font-family: "Work Sans", sans-serif;
+}
+
+.passo {
+    display:none;
+}
+
+.passo.ativo{
+    display:block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 80%;
+}
